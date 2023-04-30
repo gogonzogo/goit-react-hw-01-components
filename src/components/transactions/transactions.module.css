@@ -1,0 +1,30 @@
+.transactionHistory {
+  width: 400px;
+  text-align: center;
+  background-color: #ffffff;
+  border-collapse: collapse;
+}
+
+.tableBodyRow,
+.tableHeadRow {
+  border: 2px solid #000000;
+}
+
+.tableData {
+  border: 2px #000000;
+  border-style: dashed;
+}
+
+.tableHeaderRow {
+  height: 40px;
+  background-color: #160fe4;
+  color: #ffffff;
+}
+
+.tableBodyRow {
+  height: 25px;
+}
+
+.tableBodyRow:nth-child(2n) {
+  background-color: #0800ff41;
+}
